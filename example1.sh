@@ -3,7 +3,7 @@
 # Custom function
 custom_function(){
     echo "Do something $1 times..."
-    sleep 1
+    sleep 10
 }
 
 # For loop 5 times
@@ -13,7 +13,7 @@ do
 done
 
 ## Put all custom_function in the background and bash
-## would wait until those are completed
+## would wait until those are completed (10 secs)
 ## before displaying all done message
 wait
 echo "All done"
